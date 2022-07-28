@@ -3,6 +3,9 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import VideocamRoundedIcon from '@mui/icons-material/VideocamRounded';
 import PhoneRoundedIcon from '@mui/icons-material/PhoneRounded';
 import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
+import SentimentSatisfiedRoundedIcon from '@mui/icons-material/SentimentSatisfiedRounded';
+import AttachFileRoundedIcon from '@mui/icons-material/AttachFileRounded';
+import KeyboardVoiceRoundedIcon from '@mui/icons-material/KeyboardVoiceRounded';
 import React from 'react'
 import "./Chat.css"
 
@@ -14,7 +17,7 @@ function Chat() {
       {/* container */}
       <div className="chat_container">
         {/* header */}
-        <div className="chat-header">
+        <section className="chat-header">
           {/* left */}
           <div className="chat-header-left">
             <IconButton>
@@ -33,27 +36,35 @@ function Chat() {
           {/* right */}
           <div className="chat-header-right">
             <IconButton className='chat-header-video'>
-              <VideocamRoundedIcon fontSize='large' />
+              <VideocamRoundedIcon />
             </IconButton>
 
             <IconButton className="chat-header-call">
-              <PhoneRoundedIcon />
+              <PhoneRoundedIcon fontSiz="small" />
             </IconButton>
 
             <IconButton className="chat-header-verticalDots">
               <MoreVertRoundedIcon />
             </IconButton>
           </div>
-        </div>
-        <div className='chat-messages'>
-          </div>
-          <div className='chat-bar'>
-            <div className='chat-bar-left'>
+        </section>
 
-            </div>
+        <section className='chat-messages'>
+          <p></p>
+        </section>
+
+        <section className='chatbar'>
+          <div className='chatbar-left'>
+            <IconButton> <SentimentSatisfiedRoundedIcon /> </IconButton>
+            <IconButton className="attachment"> <AttachFileRoundedIcon /> </IconButton>
           </div>
-        </div>
+          <input placeholder='Type a message' type="text"></input>
+          <div className="chatbar-right">
+            <IconButton> <KeyboardVoiceRoundedIcon /> </IconButton>
+          </div>
+        </section>
       </div>
+    </div>
   )
 }
 

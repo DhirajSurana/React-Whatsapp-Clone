@@ -1,0 +1,41 @@
+.sidebarchat-container{
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #d1d7db;
+}
+
+.message-info{
+    padding:0.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-of-messages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.1vw;
+    width: 0.3vw;
+    height: 0.3vw;
+    border-radius:50%;
+    margin: 0.3vw;
+    padding: 1vh;
+    background-color: #23d366;
+}
+
+
+.sidebar-chat-wrapper :hover{
+    background-color: rgb(221, 219, 219);
+}
+
+.user-info{ 
+    flex:1;
+}
+.user-info > p{
+    margin-top: 0.4vh;
+}
