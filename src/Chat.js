@@ -8,12 +8,12 @@ import AttachFileRoundedIcon from '@mui/icons-material/AttachFileRounded';
 import KeyboardVoiceRoundedIcon from '@mui/icons-material/KeyboardVoiceRounded';
 import React from 'react'
 import "./Chat.css"
+import Message from "./Message"
 
 
 function Chat() {
   return (
     <div className="chat">
-
       {/* container */}
       <div className="chat_container">
         {/* header */}
@@ -50,7 +50,16 @@ function Chat() {
         </section>
 
         <section className='chat-messages'>
-          <p></p>
+          <Message className="message message-sent" />
+          <Message className="message message-recieved" />
+          <Message className="message message-recieved" />
+          <Message className="message message-sent" />
+          <Message className="message message-sent" />
+          <Message className="message message-sent" />
+          <Message className="message message-sent" />
+          <Message className="message message-sent" />
+          <Message className="message message-sent" />
+          <Message className="message message-sent" />
         </section>
 
         <section className='chatbar'>

@@ -1,15 +1,10 @@
 .chat{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    /* align-items: center; */
-    justify-content: space-between;
     flex: 0.70;
 }
 
 .chat-container{
-    display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
+    display: flex;
+    flex-direction: column;
     background-color: #fbfbfc;
 }
 
@@ -39,16 +34,16 @@ p{
 }
  
 .chat-messages{
-    flex:1;
+    display: inline-block;
+    height: 83vh;
+    width: 100%;
+    flex: 1;
     background-color:#efeae2;
-    padding: 45vh 0;
+    overflow-y: scroll;
 }
 
 .chatbar{
-    position: absolute;
-    bottom: 0;
     display: flex;
-    flex:1;
     flex-direction: row;
     padding: 1vh 1vh;
     justify-content: space-between;
