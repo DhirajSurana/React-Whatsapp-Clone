@@ -40,7 +40,7 @@ function Chat() {
             </IconButton>
 
             <IconButton className="chat-header-call">
-              <PhoneRoundedIcon fontSiz="small" />
+              <PhoneRoundedIcon fontSize="small" />
             </IconButton>
 
             <IconButton className="chat-header-verticalDots">
@@ -51,15 +51,7 @@ function Chat() {
 
         <section className='chat-messages'>
           <Message className="message message-sent" />
-          <Message className="message message-recieved" />
-          <Message className="message message-recieved" />
-          <Message className="message message-sent" />
-          <Message className="message message-sent" />
-          <Message className="message message-sent" />
-          <Message className="message message-sent" />
-          <Message className="message message-sent" />
-          <Message className="message message-sent" />
-          <Message className="message message-sent" />
+          
         </section>
 
         <section className='chatbar'>

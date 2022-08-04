@@ -34,6 +34,8 @@ p{
 }
  
 .chat-messages{
+    display: flex;
+    align-items: row-reverse;
     display: inline-block;
     height: 83vh;
     width: 100%;
