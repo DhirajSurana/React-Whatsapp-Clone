@@ -5,11 +5,13 @@ function Message() {
     return (
         <div className="message">
             <div className="">
-                <div className='person-name'>
-                    <p>koinx</p>
-                </div>
-                <div className="message-content">
-                    <p> message vnseiuvhsefskvmsoibjewgoijweviohweagiluwheivuwahc</p>
+                <div className="details">
+                    <div className='person-name'>
+                        <p>koinx</p>
+                    </div>
+                    <div className="message-content">
+                        <p> message vnseiuvhsefskvmsoibjewgoijweviohweagiluwheivuwahc</p>
+                    </div>
                 </div>
             </div>
             <div className='message-time'>

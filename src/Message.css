@@ -1,10 +1,18 @@
+/* .message >{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+} */
+
 .message{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
-    margin: 1vw;
+    margin: 0.45vw 0 0.45vw 0.9vw;
+    margin-left: .9vw;
     padding: 1vh;
     border-radius: 8px;
     width:fit-content;
@@ -25,11 +33,19 @@
 
 .message-time{
     margin-bottom:2vw;
-    /* padding: 0.1vw; */
     font-size: 0.5vw;
 }
 
-.message-recieved{
+.sent{
     background-color: #f7e99f;
-
+    align-items: right;
+    color: red;
 }
+
+.recieved{
+    background-color: #a12020;
+    align-items: right;
+    position: right;
+    color: black;
+}
+

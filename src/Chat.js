@@ -50,8 +50,22 @@ function Chat() {
         </section>
 
         <section className='chat-messages'>
-          <Message className="message message-sent" />
-          
+          <Message className="message recieved" />
+          <Message className="message recieved" />
+          <Message className="message sent" />
+          <Message className="message sent"/>
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
+          <Message className="message sent" />
         </section>
 
         <section className='chatbar'>
